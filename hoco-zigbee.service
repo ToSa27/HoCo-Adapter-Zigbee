@@ -1,0 +1,16 @@
+[Unit]
+Description=HoCo Adapter Zigbee
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/hoco/adapter/zigbee
+ExecStart=/usr/bin/node app.js
+Restart=always
+StandardOutput=syslog
+SyslogIdentifier=hoco-zigbee
+User=hoco
+Group=hoco
+Environment=PATH=/usr/bin:/usr/local/bin
+
+[Install]
+WantedBy=multi-user.target
