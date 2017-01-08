@@ -20,6 +20,5 @@
   },
   "homepage": "https://github.com/ToSa27/HoCo-Adapter-Zigbee#readme",
   "dependencies": {
-    "mqtt": "^2.1.3",
   }
 }
