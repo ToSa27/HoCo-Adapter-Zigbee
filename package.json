@@ -20,5 +20,6 @@
   },
   "homepage": "https://github.com/ToSa27/HoCo-Adapter-Zigbee#readme",
   "dependencies": {
+    "cc-znp": "^0.4.0"
   }
 }
